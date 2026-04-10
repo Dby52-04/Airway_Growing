@@ -19,7 +19,7 @@ TEST_DIR = os.path.join(CHASTE_SOURCE, f"projects/{PROJECT_NAME}/test")
 OUTPUT_BASE = "/home/newton/Project/2026/Airway_Growing/output"
 
 LOBES = ["rul", "rml", "rll", "lul", "lll"]
-JOBS = os.cpu_count() or 4
+JOBS = 1
 
 
 def to_camel(name):
